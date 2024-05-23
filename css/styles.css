@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("/images/back.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-blend-mode: screen;
+  color: rgb(5, 5, 5);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background: #470707;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h3 {
+  position:absolute;
+    margin-top: 3%;
+    margin-left: 39%;
+    background-color: #008CBA;
+    color: #000000;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 #006699;
+    width: 350px;
+    animation: example 1s infinite;
+  }
+  
+  @keyframes example {
+    0% {background-color: #008CBA;}
+    50% {background-color: #006699;}
+    100% {background-color: #008CBA;}
+  }
+  
+
+h2 {
+  position:relative;
+  text-shadow: 1px 1px 2px rgb(104, 31, 31), 0 0 1em rgb(17, 17, 19), 0 0 0.2em rgb(226, 226, 226);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 30px;
+  color: rgb(4, 29, 83);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+ul {
+  text-shadow: 2px 1px 2px rgb(24, 23, 23), 0 0 1em rgb(203, 206, 11), 0 0 0.2em rgb(184, 184, 185);
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+h1 {
+  text-shadow: 1px 1px 2px rgb(231, 231, 231), 0 0 1em rgb(221, 221, 221), 0 0 0.2em rgb(219, 46, 23);
+}
+h4 {
+  color: rgb(241, 241, 241);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+  margin-top: -30%;
+  margin-left: 6%;
+  font-size: 27px;
+  float: left;
+}
+
+h5 {
+  color: rgb(241, 241, 241);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+  float:right;
+  margin-top: -30%;
+  margin-right: 10%;
+  font-size: 27px;
+}
+.pedzel {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 46%;
+  float:right;
+}
